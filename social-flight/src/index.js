@@ -4,8 +4,10 @@ import './index.css';
 // import * as serviceWorker from './serviceWorker';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import PresentationProfileNew from "./pages/PresentationProfileNew";
+import PresentationProfiles from './pages/PresentationProfiles';
+
 ReactDOM.render(
-    <PresentationProfileNew />,
+    <PresentationProfiles />,
   document.getElementById('root')
 );
 

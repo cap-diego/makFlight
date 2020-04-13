@@ -17,7 +17,7 @@ class PresentationProfile extends React.Component{
                 <div className="Profile__info">
                     <h4 className="card-text ">{this.props.jobTitle}</h4>
                     <div>
-                        <FaTwitter /> @{this.props.twitter}
+                        <FaTwitter /> @{this.props.mail}
                     </div>
                     <div>
                         <FaInstagram /> {this.props.instagram}
