@@ -1,0 +1,13 @@
+version: '3.7'
+
+services:
+
+  front:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - './social-flight:/social-flight'
+      - '/social-flight/node_modules'
+    ports:
+      - 3001:3000
